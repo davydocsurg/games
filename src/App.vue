@@ -2,6 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Monster Game</router-link> |
+      <router-link to="/quiz">Super Quiz</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>

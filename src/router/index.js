@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MonsterGame from '../views/MonsterGame.vue'
+import Quiz from '../views/quiz/Quiz.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +10,11 @@ const routes = [
     path: '/',
     name: 'MonsterGame',
     component: MonsterGame
+  },
+  {
+    path: '/quiz',
+    name: 'Quiz',
+    component: Quiz
   },
   {
     path: '/about',
